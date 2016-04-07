@@ -1,0 +1,87 @@
+source("cachematrix.R")
+x <- makeCacheMatrix()
+x
+x$get
+x$get()
+a <- matrix(1:4.nrow = 2, ncol = 2, byrow = TRUE)
+a <- matrix(1:4,nrow = 2, ncol = 2, byrow = TRUE)
+a
+x$set(a)
+cacheSolve(x)
+b= cacheSolve(x)
+b <- cacheSolve(x)
+b %*% a
+a %*% b
+ls()
+rm(list = ls())
+source("cachematrix.R")
+x<-makeCacheMatrix()
+x
+a <- matrix(1:4, nrow = 2, ncol = 2, byrow = TRUE)
+a
+b <- cacheSolve(x)
+b
+aa <- NA
+aa
+solve(aa)
+is.na(aa)
+is.na(b)
+if(is.na(b)){print("KKKKK")}
+?warning
+source("cachematrix.R")
+x <- makeCacheMatrix()
+cacheSolve(x)
+b <- cacheSolve(x)
+rm(list = ls())
+ls
+ls()
+source("cachematrix.R")
+x <- makeCacheMatrix()
+b<-cacheSolve(x)
+b
+c<-cacheSolve(x)
+c
+a <- matrix(1:4, nrow = 2, ncol = 2, byrow = TRUE)
+x$get(a)
+a
+x$set(a)
+x$get_inv()
+x$get()
+print("a","b")
+print("ab")
+a
+as.character(a)
+tostring(a)
+cat(a)
+ls()
+ls()
+rm(list = ls())
+ls
+source("test_cachematrix.R")
+source("test_cachematrix.R")
+rm(list = ls())
+source("test_cachematrix.R")
+rm(list = ls())
+source("test_cachematrix.R")
+b
+rm(list = ls())
+source("test_cachematrix.R")
+rm(list = ls())
+source("test_cachematrix.R")
+rm(list = ls())
+source("test_cachematrix.R")
+rm(list = ls())
+source("test_cachematrix.R")
+print(/n)
+print(\n)
+print(""\n")
+print("\n")
+print("fefe\n")
+print("fefe\\n")
+print('fefe\n')
+print("fefe\\n")
+print("fefe/n")
+print("fefe//n")
+print("fefe//n")
+rm(list = ls())
+source("test_cachematrix.R")
